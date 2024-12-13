@@ -1,0 +1,17 @@
+.nojobs img{
+    width: 24rem;
+    margin: 40px;
+    margin-left: 41%;
+}
+.nojobs p{
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(117, 116, 116);
+}
+@media (max-width: 500px){
+    .nojobs img{
+        margin-left: 10%;
+        width: 19rem;
+    }
+}
