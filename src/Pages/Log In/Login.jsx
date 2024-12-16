@@ -27,6 +27,7 @@ const Login = () => {
     alert("Invaild user")
   }
 
+  
 
   }
   return (
@@ -48,7 +49,7 @@ const Login = () => {
         </div>
         <div className="form-switch">
           <p>
-            Don't have an account? <Link to="/">Sign up</Link>
+            Don't have an account? <Link to="/signup">Sign up</Link>
           </p>
         </div>
       </div>

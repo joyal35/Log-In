@@ -21,7 +21,6 @@ const Signup = () => {
 
     const users = JSON.parse(localStorage.getItem("user")) || [];
     const userExit = users.some((user) => user.email === email);
-    onChangeonChange3
     if (userExit) {
       alert("This email is alredy exist");
     }
@@ -65,7 +64,7 @@ const Signup = () => {
         </div>
         <div className="form-switch">
           <p>
-            Have an account? <Link to="/login">Sign In</Link>
+            Have an account? <Link to="/">Sign In</Link>
           </p>
         </div>
       </div>
