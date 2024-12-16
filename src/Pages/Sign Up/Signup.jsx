@@ -21,7 +21,7 @@ const Signup = () => {
 
     const users = JSON.parse(localStorage.getItem("user")) || [];
     const userExit = users.some((user) => user.email === email);
-
+    onChangeonChange3
     if (userExit) {
       alert("This email is alredy exist");
     }

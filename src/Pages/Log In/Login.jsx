@@ -16,8 +16,7 @@ const Login = () => {
     e.preventDefault();
 
     const users=JSON.parse(localStorage.getItem("users")) || []
-    const user = users.find((user)=> user.email === email && user.password
-  === password)
+    const user = users.find((user)=> user.email === email && user.password === password)
 
   if(user){
     localStorage.setItem("isAuthenticated",true)
@@ -49,7 +48,7 @@ const Login = () => {
         </div>
         <div className="form-switch">
           <p>
-            Don't have an account? <Link to="/signup">Sign up</Link>
+            Don't have an account? <Link to="/">Sign up</Link>
           </p>
         </div>
       </div>
