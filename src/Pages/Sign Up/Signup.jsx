@@ -30,7 +30,7 @@ const Signup = () => {
     localStorage.setItem("userName", name);
 
     alert("Signup successful!");
-    navigate("/home");
+    navigate("/home", {replace: true});
   };
 
   return (

@@ -22,7 +22,7 @@ const Login = () => {
       localStorage.setItem("isAuthenticated", true);
       localStorage.setItem("userName", user.name);
       alert("Login successful!");
-      navigate("/home");
+      navigate("/home",{ replace: true});
     } else {
       alert("Invaild user");
     }
